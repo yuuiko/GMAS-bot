@@ -84,7 +84,7 @@ class generalChat(commands.Cog):
             rolesChannel = self.bot.get_channel(rolesChannelId)
             rulesChannel = self.bot.get_channel(rulesChannelId)
             
-            await channel.send(f"{greeting} {emoji1}\nWelcome to GMAS! Please be mindful of {rulesChannel.mention or 'the server rules'} and {rolesChannel.mention or 'the roles channel'}, and enjoy your stay!\n{welcome_role.mention}")
+            await channel.send(f"{greeting} {emoji1}\nWelcome to GMAS! Please be mindful of {rulesChannel.mention or 'the server rules'} and {rolesChannel.mention or 'the roles channel'}, and enjoy your stay!\n quick run the {welcome_role.mention} may to steal your kneecaps")
               
             
 def setup(bot):
